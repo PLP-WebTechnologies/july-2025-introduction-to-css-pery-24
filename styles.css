@@ -1,0 +1,48 @@
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+/* Header styling */
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;  /* padding inside the box */
+    text-align: center;
+    margin-bottom: 20px; /* space outside the box */
+}
+
+/* Content section styling */
+.content {
+    margin: 20px;
+    padding: 15px;
+    border: 2px solid #333;
+    background-color: #ffffff;
+}
+
+/* Cards section */
+.cards {
+    display: flex; /* horizontal layout */
+    gap: 20px; /* space between cards */
+    margin: 20px;
+}
+
+/* Individual card styling */
+.card {
+    flex: 1; /* equal width */
+    padding: 15px;  /* space inside border */
+    border: 2px solid #4CAF50; /* visible border */
+    background-color: #e0f7fa;
+}
+
+/* Footer styling */
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #333;
+    color: white;
+    margin-top: 20px;
+}
